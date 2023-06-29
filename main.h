@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <unistd.h>
-#define _GNU_SOURCE
 
 void factorize(unsigned long num);
 

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * factorize: Factorizes an integer
+ * factorize - Factorizes an integer
  * @num: An integer scanned from the file.
  *
  * Return: Void.
@@ -14,7 +14,7 @@ void factorize(unsigned long num)
 	{
 		if (num % i == 0)
 		{
-			printf("%lu=%lu*%lu\n", num, num/i, i);
+			printf("%lu=%lu*%lu\n", num, num / i, i);
 			break;
 		}
 	}
